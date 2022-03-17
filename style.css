@@ -13,12 +13,14 @@ body {
   font-family: Vazir, sans-serif;
 }
 
+/* Header */
+
 .header {
   height: 150px;
 }
 
 .header img {
-  margin: 20px 20px 0 0;
+  margin: 15px 20px 0 0;
   float: right;
 }
 
@@ -51,4 +53,35 @@ body {
 
 .auth a:hover {
     background-color: #0063b9;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* Menu */
+
+.menu {
+  background-color: #0275d8;
+  height: 50px;
+}
+
+.menu ul {
+  margin-right: 60px;
+}
+
+.menu ul li {
+  display: inline-block;
+  font-size: 22px;
+  padding-left: 30px;
+  padding-top: 8px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu ul li a:hover {
+  color: #e6e6e6;
 }
