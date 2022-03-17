@@ -114,7 +114,9 @@ body {
   width: 70%;
 }
 
-.content-up p {
+.content-up p,
+.content-center p,
+.content-down p {
   margin-right: 20px;
   width: 90%;
 }
