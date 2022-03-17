@@ -91,7 +91,7 @@ body {
   color: var(--gray);
 }
 
-/* Content */
+/* Content Up */
 
 .content {
   width: 70%;
@@ -104,7 +104,10 @@ body {
 }
 
 .content-up h3,
-.content-center h3 {
+.content-center h3,
+.content-down h3,
+.content-post h3 {
+  font-size: 20px;
   margin-right: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid silver;
@@ -116,11 +119,15 @@ body {
   width: 90%;
 }
 
-.content-center {
+/* Content Center */
+
+.content-center,
+.content-down,
+.content-post {
   margin-top: 50px;
 }
 
-.register {
+.content-center .register {
   margin-right: 10px;
 }
 
@@ -154,6 +161,31 @@ body {
 
 .content-center input[type="submit"]:hover {
   background-color: var(--darkblue);
+}
+
+/* Content Down */
+
+.content-down a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  margin: 10px 20px;
+}
+
+.content-down a:hover {
+  color: #3a3a3a;
+}
+
+/* Content Post */
+
+.content-post img:first-child {
+  margin-right: 40px;
+}
+
+.content-post img {
+  display: inline-block;
+  margin: 10px 0px;
+  width: 200px;
 }
 
 /* Sidebar Up */
