@@ -7,6 +7,11 @@
   font-weight: normal;
 }
 
+:root {
+  --blue: #0275d8;
+  --darkblue: #0063b9;
+}
+
 body {
   direction: rtl;
   margin: 0;
@@ -35,7 +40,6 @@ body {
   margin: -14px 0;
 }
 
-
 .auth {
   float: left;
   margin: 35px 0 0 10px;
@@ -44,7 +48,7 @@ body {
 .auth a {
   font-size: 25px;
   text-decoration: none;
-  background-color: #0275d8;
+  background-color: var(--blue);
   color: white;
   padding: 10px 20px;
   margin: 0 0 0 15px;
@@ -52,7 +56,7 @@ body {
 }
 
 .auth a:hover {
-    background-color: #0063b9;
+  background-color: var(--darkblue);
 }
 
 .clearfix {
@@ -62,7 +66,7 @@ body {
 /* Menu */
 
 .menu {
-  background-color: #0275d8;
+  background-color: var(--blue);
   height: 50px;
 }
 
@@ -84,4 +88,22 @@ body {
 
 .menu ul li a:hover {
   color: #e6e6e6;
+}
+
+.content {
+  width: 70%;
+  height: 1300px;
+  background-color: white;
+  box-shadow: 0 1px 0.8em #0000003b;
+  margin: 50px 20px 0 0;
+  float: right;
+}
+
+.sidebar {
+  width: 23%;
+  height: 1300px;
+  background-color: white;
+  box-shadow: 0 1px 1em #0000003b;
+  margin: 50px 30px 0 0;
+  float: right;
 }
