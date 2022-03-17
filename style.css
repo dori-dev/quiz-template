@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Vazir;
+  src: url("font/Vazir.eot");
+  src: url("font/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("font/Vazir.woff") format("woff"),
+    url("font/Vazir.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  direction: rtl;
+  margin: 0;
+  font-family: Vazir, sans-serif;
+}
+
+.header {
+  height: 150px;
+}
+
+.header img {
+  margin: 20px 20px 0 0;
+  float: right;
+}
+
+.info {
+  float: right;
+  margin: 5px 20px 0 0;
+  width: 50%;
+  font-size: 20px;
+}
+
+.info h3 {
+  margin: -14px 0;
+}
+
+
+.auth {
+  float: left;
+  margin: 35px 0 0 10px;
+}
+
+.auth a {
+  font-size: 25px;
+  text-decoration: none;
+  background-color: #0275d8;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 0 0 15px;
+  border-radius: 10px;
+}
+
+.auth a:hover {
+    background-color: #0063b9;
+}
