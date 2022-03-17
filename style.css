@@ -183,9 +183,21 @@ body {
 }
 
 .content-post img {
-  display: inline-block;
-  margin: 10px 0px;
+  margin: 10px -100px;
   width: 200px;
+}
+
+.hover figure {
+  display: inline-block;
+}
+
+.hover figure img {
+  opacity: 1;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.hover figure:hover img {
+  opacity: 0.5;
 }
 
 /* Sidebar Up */
